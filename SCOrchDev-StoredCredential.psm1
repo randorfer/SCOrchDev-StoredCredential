@@ -204,8 +204,3 @@ public static extern bool CredFree([In] IntPtr cred);
     }
 }
 Export-ModuleMember Get-StoredCredential -Verbose:$False
-
-New-Alias -Name gsc -Value Get-StoredCredential -ErrorAction SilentlyContinue
-if ($?) {
-    Export-ModuleMember -Alias gsc
-}
