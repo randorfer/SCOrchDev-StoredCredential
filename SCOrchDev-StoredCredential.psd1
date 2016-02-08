@@ -9,10 +9,10 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = '.\SCOrchDev-StoredCredntial.psm1'
+RootModule = '.\SCOrchDev-StoredCredential.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '0.1.1'
 
 # ID used to uniquely identify this module
 GUID = 'e10843e8-0c06-4e35-b998-42e7d04094cd'
